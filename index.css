@@ -1,0 +1,96 @@
+
+			.header{
+				width:1400px;
+				margin: 0 auto;
+				border-left: black solid;
+				border-right: black solid;
+				border-bottom:;
+			}
+			.pp{
+				height: 45px;
+				width: 100%;
+				background-color: #ccc;
+				position: relative;
+				}
+			.pp img{
+				position: absolute;
+				left:200px;
+				top: 18px;
+			}
+			#messdiv{
+				display: inline-block;
+				position: absolute;
+				overflow: hidden;
+				left: 19%;
+				top: 30px;
+				width: 68%;
+				height: 20px;
+			}
+			#message{
+				width: 450px;
+				position: absolute;
+				right: 0;
+				overflow: hidden;
+				color: red;
+			}
+			.box{
+				width: 1200px;
+				height: 400px;
+				margin: 0 auto;
+				position: relative;
+				overflow: hidden;
+
+		    }
+		    .slider{
+		    	width:8400px;
+		    	position: absolute;
+		    	left: -1200px;
+		    }
+		    .slide{
+		    	width: 1200px;
+		    	overflow: hidden;
+		    	float: left;
+
+		    }
+		    .box>span{
+		    	display: block;
+		    	width: 30px;
+		    	height: 50px;
+		    	text-align: center;
+		    	cursor: pointer;
+		    	color: ;
+		    	top: 175px;
+		    	line-height: 50px;
+		    	background: rgb(255,0,0);
+		    	font-size: 30px;
+		    	position: absolute;
+		    	opacity: 0;
+		    	
+		      }
+		    #left{
+		    	left: 50px;
+		    }
+		    #right{
+		    	right: 50px;
+		    }
+		    .nav{
+		    	position: absolute;
+		    	left: 500px;
+		        bottom: 20px;
+		        }
+		     ul,li{
+		     	list-style: none;
+		     }
+		    .nav>li{
+		    	float: left;
+		    	width: 30px;
+		    	height: 30px;
+		        background:gray;
+		        cursor: pointer;
+		        margin: 0 10px;
+		        border-radius:50px;
+		        text-align: center;
+		    }
+		    .nav .active{
+		    	background: red;
+		    }
